@@ -240,6 +240,25 @@ Controllers para CRUD básico com métodos: index, create, store, show, edit, up
 
 ---
 
+## 📱 Mobile
+
+Esta plataforma pode ser acessada em dispositivos móveis de duas formas:
+
+### 1. Progressive Web App (PWA)
+- Mantém PHP + Laravel no back-end;
+- Front-end responsivo com HTML/CSS/JS (Tailwind ou Bootstrap e Alpine.js);
+- Adicione `manifest.json` e um `service worker` (ex.: pacote laravel-pwa);
+- Funciona offline e permite instalação sem loja de apps.
+
+### 2. App Híbrido / Nativo (Opcional)
+- **Ionic + Capacitor**: empacote sua PWA para Google Play/App Store;
+- **React Native**: JavaScript/TypeScript para componentes nativos;
+- **Flutter**: Dart, performance quase nativa.
+
+> **Recomendação**: para estudos, opte por **PWA** e mantenha o stack simples, focado em PHP + Laravel.
+
+---
+
 ## 🛣️ Roadmap de Estudo
 
 1. Configuração e CRUD de `exercises`  
